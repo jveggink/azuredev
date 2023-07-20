@@ -19,7 +19,7 @@ resource appServicePlan 'Microsoft.Web/serverFarms@2022-03-01' = {
 }
 
 resource appServiceApp 'Microsoft.Web/sites@2022-03-01' = {
-  name: 'toy-product-launch-1'
+  name: 'toy-product-launch-delta-072023'
   location: 'westus3'
   properties: {
     serverFarmId: appServicePlan.id
